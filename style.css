@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/*Header Part Start*/
+
+.title0{
+    width: 100%;
+    background-color:yellow;
+}
+
+.title0 h2{
+        color: red;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 2.5px black;
+        font-size: 18px;
+
+}
+
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+    margin: 10px 15px;
+
+}
+
+ul li a{
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid red;
+    color:white;
+    padding: 2.5px 5px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+ul li a:hover{
+    background-color: white;
+    color:black;
+    border-color: blue;
+    transition: 0.5s;
+}
+/*Header Part End*/
+
+
+/*Login Form Design Start*/
+.loginBox {
+    border-radius: 5px;
+    background-color: white;
+    width: 400px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 25px 10px gray;
+}
+
+.loginBox input {
+    width: 98%;
+    background-color: #ddd;
+    padding: 20px 20px;
+    margin-bottom: 18px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.loginBox .btn {
+    background: green;
+    color: white;
+    font-weight: bold;
+    width: 105%;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.loginBox .btn:hover {
+    background: linear-gradient(green, blue);
+}
+
+.registerLink {
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.registerLink a {
+    color: blue;
+    text-decoration: none;
+}
+
+h2{
+    color: #444;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2.5px black;
+    font-size: 30px;
+}
+.loginBox .logo img{
+    width: 130px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-bottom: 35px;
+    margin-left: 80px; 
+}
+/*Login Form Design End*/
+details{
+    text-align: center;
+}
+
+details[open] >summary{
+    background-color: aqua;
+    width: 150px;
+    text-align: justify;
+}
+
+.box1, .box2, .box4{
+    width: 100%;
+    background-color:#ddd;
+    padding: 20px;
+    text-align: center;
+    
+}
+.box1 h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color:#444;
+    text-transform: uppercase;
+  
+}
+
+.box1 p{
+    font-family: cursive;
+    padding: 5px;
+}
+
+.box4 h3{
+    color:red;
+    font-size: 20px;
+}
+
+.box5{
+    padding: 20px;
+    width: 100%;
+    background-color:#eee;
+}
+
+.box5 h3{
+    font-size: 28px;
+  
+}
+
+.box5 span{
+    color:blue;
+    text-align: justify;
+}
+
+.box2 h3{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color:rgb(17, 0, 255);
+}
+
+.box2 span{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.title1 p{
+    color:white;
+    font-size: 40px;
+    background:linear-gradient(rgb(226, 218, 218),rgb(33, 53, 131),rgb(21, 224, 38));
+    border: 2px dotted yellow;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+}
+
+.title3 p{
+    color:#ddd;
+    font-size: 40px;
+    background:linear-gradient(black, green,yellow);
+    border: 2px dotted black;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+}
+
+.title4 p{
+    color:#ddd;
+    font-size: 40px;
+    background:linear-gradient(red,blue, green);
+    border: 2px dotted black;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+.pk1{
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+.pk2{
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+.G h1{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        color:#444;
+        background-color: antiquewhite;
+        width: 250px;
+        margin: auto;
+        text-align: center;
+        border: 2px dotted green;
+}
+
+/* Footer part start---*/
+
+.logo2 img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.p1 p{
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+.icon{
+    text-align: center;
+}
+
+.icon i{
+    color:black;
+    font-size:30px;
+    font-style: italic;
+    top: -15px;
+}
+
+.icon i:hover{
+    color:blue;
+   
+}
+
+.c{
+    width: 100%;
+    color:white;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+/*Footer part End*/
+
+/*---Mobile View Start---*/
+@media screen and (max-width:768px){
+    .loginBox{
+        width: 340px;
+    }
+
+    .loginBox input{
+        width: 105%;
+    }
+
+    .registerLink{
+        font-size: 13px;
+    }
+    .loginBox .logo img{
+        margin-left: 48px;
+    }
+
+    ul li {
+        margin: 5px 5px;
+        margin-top: 10px;
+    }
+
+    ul li a{
+        padding: 2.5px;
+        font-size: 14px;
+    }
+
+    .pk{
+        width: 300px;
+        height: 200px;
+        margin: auto;
+    }
+   
+   
+}
+/*---Mobile View End---/*
+
+
+
+
+
